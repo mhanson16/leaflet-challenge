@@ -19,7 +19,7 @@ d3.json(url).then(function (data) {
     // Send our earthquakes layer to the createMap function/
 
     function size(magnitude){
-        return magnitude *10000;
+        return magnitude *50000;
       }
     
       //colors per hw screenshot
